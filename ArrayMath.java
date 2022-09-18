@@ -8,8 +8,8 @@ public class ArrayMath{
         return sum;
     }
 
-    public static int multiply(int a[]){
-        int product = 0;
+    public static int product(int a[]){
+        int product = 1;
         for(int i = 0; i < a.length; i++){
             product *= a[i];
         }
